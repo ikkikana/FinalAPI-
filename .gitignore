@@ -1,0 +1,14 @@
+# Environnements virtuels
+.venv/
+venv/
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+
+# Config IDE
+.idea/
+*.iml
+
+# Système
+.DS_Store
