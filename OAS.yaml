@@ -1,0 +1,47 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "STD24019",
+    "version": "0.1.0",
+    "server": "http://localhost:8000",
+  },
+  "paths":
+    {
+    "/ping": {
+      "get": {
+        "summary": "this is a specification of STD24019",
+        "operationId": "ping_ping_get",
+        "responses": {
+          "200": {
+            "description": "This is a specification of STD24019",
+            "content": {
+              "application/json": {
+                "schema": {
+
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/health": {
+      "post": {
+        "summary": "Welcome User",
+        "operationId": "welcome_user_health_post",
+        "responses": {
+          "200": {
+            "description": "this is a specification of STD24019",
+            "content": {
+              "application/json": {
+                "schema": {
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
